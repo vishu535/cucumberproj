@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "login to application",
+        "description": "",
+        "id": "restoration-hardware-usa;login-to-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16374978599,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open restoration hardware application",
+            "match": {
+              "location": "Step_Login001.open_restoration_hardware_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1869554400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click signin and enter user details",
+            "match": {
+              "location": "Step_Login001.click_signin_and_enter_user_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "homepage should be displayed",
+            "match": {
+              "location": "Step_Login001.homepage_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39599,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "logout from the application",
+            "match": {
+              "location": "Step_Login001.logout_from_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@rh"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Navigate to all menus",
+        "description": "",
+        "id": "restoration-hardware-usa;navigate-to-all-menus",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20588158201,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "open restoration hardware application",
+            "match": {
+              "location": "Step_Login001.open_restoration_hardware_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1661303299,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click signin and enter user details",
+            "match": {
+              "location": "Step_Login001.click_signin_and_enter_user_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112799,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click all the submenu links",
+            "match": {
+              "location": "Step_Login001.click_all_the_submenu_links()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@rh"
+          }
+        ]
+      }
+    ],
+    "name": "Restoration hardware USA",
+    "description": "",
+    "id": "restoration-hardware-usa",
+    "keyword": "Feature",
+    "uri": "restorationhw.feature"
+  }
+]
